@@ -1,0 +1,235 @@
+/* Site navbar */
+*{
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    margin-bottom: 5px;
+}
+img{
+    border-radius: 5px;
+}
+button{
+    margin: 0px;
+    padding: 5px 10px;
+    font-size: medium;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(129, 87, 185);
+    text-shadow: #333 1px 1px 3px;
+    border: 0px;
+    border-radius: 5px;
+}
+table{
+    align-items: left;
+    text-align: left;
+}
+table td{
+    padding: 5px;
+}
+table th{
+    padding: 5px;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(31, 31, 31);
+    background-image: linear-gradient(rgb(50,50,50), black);
+    position: sticky;
+    top:0px;
+}
+li.navbar_btn {
+    display: inline;
+    padding: 10px 10px;
+}
+li.navbar_btn:hover{
+    background-color: rgb(199, 157, 255);
+    text-shadow: #333 1px 1px 3px;
+}
+li.navbar_btn_active {
+    display: inline;
+    padding: 10px 10px;
+    background-color: rgb(199, 157, 255);
+    text-shadow: #333 1px 1px 3px;
+}
+li.navbar_btn_active a {
+    cursor: default;
+}
+a.navbar_link {
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+div.vista1{
+    padding: 22vh 0;
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-shadow: #333 1px 1px 3px;
+    /* Background image + parallax scroll */
+    background-image: url(https://images.pexels.com/photos/534049/pexels-photo-534049.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.vista2{
+    /* Vista used for page 2 */
+    padding: 22vh 0;
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-shadow: #333 1px 1px 3px;
+    /* Background image + parallax scroll */
+    background-image: url(https://images.pexels.com/photos/7061817/pexels-photo-7061817.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.vistaResume{
+    /* Vista used for resume */
+    padding: 22vh 0;
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-shadow: #333 1px 1px 3px;
+    /* Background image + parallax scroll */
+    background-image: url(https://images.pexels.com/photos/261579/pexels-photo-261579.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.vistaContact{
+    /* Vista used for contact page */
+    padding: 22vh 0;
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-shadow: #333 1px 1px 3px;
+    /* Background image + parallax scroll */
+    background-image: url(https://get.pxhere.com/photo/laptop-notebook-computer-work-keyboard-technology-key-office-island-black-closeup-modern-device-button-close-up-keys-digital-pc-lenovo-multimedia-workplace-computer-keyboard-trackpoint-nub-electronic-device-computer-hardware-musical-keyboard-electronic-keyboard-red-dot-thinkpad-chiclet-1169530.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.img1{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    /* Parallax scroll with image */
+    background-image: url("https://images.pexels.com/photos/6073196/pexels-photo-6073196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 5px #333; */
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 5px #333;
+}
+div.img_profile{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    /* Parallax scroll with image */
+    background-image: url("./profile_photo_2.jpg");
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 5px #333; */
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 5px #333;
+}
+div.content {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 10px;
+}
+iframe.spotify_player{
+    border-radius: 5px;
+    /* The next two settings center the iframe */
+    display: block;
+    margin: 0px auto;
+}
+div.card {
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #333;
+}
+/* Card_containers are used for positioning multiple cards on the same line. */
+div.card_holder{
+    display: flex;
+    margin: 10px;
+}
+div.card_holder div {
+    display: block;
+    margin: 0px auto;
+}
+div.footer{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 10px;
+    text-shadow: rgb(0, 0, 0) 1px 1px 5px;
+}
+
+/* mobile view */
+@media screen and (max-width: 600px) {
+    /* *{} */
+    ul.navbar{
+        position: relative;
+    }
+    li.navbar_btn {
+        text-align: center;
+        display: block;
+        margin-bottom: 5px;
+    }
+    li.navbar_btn:hover {
+        border-radius: 10px;
+        background-color: rgb(129, 87, 185);
+    }
+    li.navbar_btn_active {
+        text-align: center;
+        display: block;
+        margin-bottom: 5px;
+        border-radius: 10px;
+    }
+    div.card_holder{
+        display: block;
+    }
+    div.card{
+        border-radius: 15px;
+    }
+    div.img1{
+        border-radius: 15px;
+    }
+    iframe.spotify_player{
+        border-radius: 15px;
+    }
+    img{
+        border-radius: 15px;
+    }
+}
