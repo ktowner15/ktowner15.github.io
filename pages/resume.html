@@ -1,20 +1,42 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Resume</title>
+    <!-- Apply SASS-compiled Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/custom.min.css">
+    <!-- Apply custom CSS -->
+    <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body>
     <!-- navbar -->
-    <ul class="navbar">
-        <a class="navbar_link" href="index.html"><li class="navbar_btn">Home</li></a>
-        <a class="navbar_link" href="resume.html"><li class="navbar_btn_active">Resume</li></a>
-        <a class="navbar_link" href="hobbies.html"><li class="navbar_btn">Hobbies</li></a>
-        <a class="navbar_link" href="contact.html"><li class="navbar_btn">Contact Me</li></a>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/index.html"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/pages/resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/hobbies.html">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="vistaResume">
         <h1>Resume</h1>
     </div>
@@ -57,7 +79,8 @@
                 <li>Cytoscape</li>
             </ul>
             <h2><u>Miscellaneous</u></h2>
-            <p style="padding: 10px 0px;">Assembled multiple PCs; experienced with safely handling both consumer-grade & enterprise computing hardware.</p>
+            <p style="padding: 10px 0px;">Assembled multiple PCs; experienced with safely handling both consumer-grade &
+                enterprise computing hardware.</p>
         </div>
         <div class="card" style="text-align: left;">
             <h1 style="margin-bottom: 20px;">Experience</h1>
@@ -66,31 +89,38 @@
             <ul style="list-style: inside; padding: 10px 0px;">
                 <li>Served the team as an automation &amp; software development SME</li>
                 <li>Gained experience with internal QMS and related quality-assurance toolchains</li>
-                <li>Created various data visualizations &amp; dashboards to communicate process improvement opportunities to a variety of stakeholders</li>
-                <li>Performed various investigations &amp; CAPAs to diagnose and correct process misalignments contributing to line-level rework &amp; re-shipment.</li>
-                <li>Performed data capture &amp; analysis of customer-impacting issues across a wide variety of contexts, for audiences throughout the organization</li>
-                <li>Created internal order reprioritizer tool to help order management teams save many labor hours per month</li>
+                <li>Created various data visualizations &amp; dashboards to communicate process improvement
+                    opportunities to a variety of stakeholders</li>
+                <li>Performed various investigations &amp; CAPAs to diagnose and correct process misalignments
+                    contributing to line-level rework &amp; re-shipment.</li>
+                <li>Performed data capture &amp; analysis of customer-impacting issues across a wide variety of
+                    contexts, for audiences throughout the organization</li>
+                <li>Created internal order reprioritizer tool to help order management teams save many labor hours per
+                    month</li>
             </ul>
-            
+
             <h2><u>Ameren Digital - Digital Intern</u>, Edwardsville, IL - Digital Field Experience</h2>
             <b>[May 2020 - August 2020]</b>
             <ul style="list-style: inside; padding: 10px 0px;">
-                <li>Developed internal reminder application, capable of 
-serving 900+ employees during major project deployment (leveraged C#, 
-internal SMTP Exchange server interactions)</li>
+                <li>Developed internal reminder application, capable of
+                    serving 900+ employees during major project deployment (leveraged C#,
+                    internal SMTP Exchange server interactions)</li>
                 <li>Developed environment status dashboard (ASP.NET + IIS deployment) for outage support</li>
                 <li>Gained experience with UI / UX design on both projects listed above through coworker feedback</li>
                 <li>Assisted with remote field device QA / QC testing during large deployment from vendor</li>
-                <li>You can see my recommendation letter from this experience on <a href="https://www.linkedin.com/in/kyle-towner/"><button>my LinkedIn profile</button></a>.</li>
+                <li>You can see my recommendation letter from this experience on <a
+                        href="https://www.linkedin.com/in/kyle-towner/"><button class="btn btn-primary">my LinkedIn profile</button></a>.</li>
             </ul>
 
             <h2><u>SIU School of Dental Medicine - Student Assistant</u>, Alton, IL</h2>
             <b>[January 2019 - December 2019]</b>
             <ul style="list-style: inside; padding: 10px 0px;">
-                <li>Managed 100+ student workstations using Excel and support tickets to maintain organized workflow</li>
+                <li>Managed 100+ student workstations using Excel and support tickets to maintain organized workflow
+                </li>
                 <li>Updated &amp; maintained workstation software via RDP</li>
                 <li>Modified &amp; troubleshot workstation hardware</li>
-                <li>Gained experience with Odontobytes, a proprietary support ticket &amp; workflow management program</li>
+                <li>Gained experience with Odontobytes, a proprietary support ticket &amp; workflow management program
+                </li>
             </ul>
 
             <h2><u>Walgreens - Cashier</u>, Litchfield, IL</h2>
@@ -109,13 +139,27 @@ internal SMTP Exchange server interactions)</li>
             <ul style="list-style: inside; padding: 10px 0px;">
                 <li>D&amp;D Club of SIUE - Vice President (Fall 2016 - Spring 2020)</li>
                 <li>CRU Campus Ministry volunteer mission work (Spring 2016)</li>
-                <li>Eagle Scout (December 2014) <ul><li>Order of the Arrow - Arrowman</li></ul></li>
+                <li>Eagle Scout (December 2014) <ul>
+                        <li>Order of the Arrow - Arrowman</li>
+                    </ul>
+                </li>
             </ul>
         </div>
-        
+
     </div>
     <div class="footer">
         © Kyle Towner 2021 | All rights reserved.
     </div>
-
-</body></html>
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</html>
