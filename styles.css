@@ -12,8 +12,8 @@ div.vista1{
     align-items: center;
     color: white;
     text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll */
-    background-image: url(https://images.pexels.com/photos/534049/pexels-photo-534049.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    /* Background image + parallax scroll.  Sourced from images.pexels.com. */
+    background-image: url(/images/cliffs.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,8 +26,8 @@ div.vista2{
     align-items: center;
     color: white;
     text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll */
-    background-image: url(https://images.pexels.com/photos/7061817/pexels-photo-7061817.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    /* Background image + parallax scroll  Sourced from images.pexels.com. */
+    background-image: url(/images/polyhedral_dice.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,8 +40,8 @@ div.vistaResume{
     align-items: center;
     color: white;
     text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll */
-    background-image: url(https://images.pexels.com/photos/261579/pexels-photo-261579.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    /* Background image + parallax scroll  Sourced from images.pexels.com. */
+    background-image: url(/images/writing_implements.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,8 +54,8 @@ div.vistaContact{
     align-items: center;
     color: white;
     text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll */
-    background-image: url(https://get.pxhere.com/photo/laptop-notebook-computer-work-keyboard-technology-key-office-island-black-closeup-modern-device-button-close-up-keys-digital-pc-lenovo-multimedia-workplace-computer-keyboard-trackpoint-nub-electronic-device-computer-hardware-musical-keyboard-electronic-keyboard-red-dot-thinkpad-chiclet-1169530.jpg);
+    /* Background image + parallax scroll  Sourced from images.pexels.com. */
+    background-image: url(/images/keyboard.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ div.vista404{
     align-items: center;
     color: white;
     text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll */
+    /* Background image + parallax scroll  Sourced from images.pexels.com. */
     background-image: url(/images/map.jpg);
     background-attachment: fixed;
     background-position: center;
