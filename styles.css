@@ -1,3 +1,7 @@
+img.navbar-icon{
+    width: 50px;
+    height: 50px;
+}
 div.card{
     margin: 10px 10px; 
     padding: 10px;
@@ -52,6 +56,20 @@ div.vistaContact{
     text-shadow: #333 1px 1px 3px;
     /* Background image + parallax scroll */
     background-image: url(https://get.pxhere.com/photo/laptop-notebook-computer-work-keyboard-technology-key-office-island-black-closeup-modern-device-button-close-up-keys-digital-pc-lenovo-multimedia-workplace-computer-keyboard-trackpoint-nub-electronic-device-computer-hardware-musical-keyboard-electronic-keyboard-red-dot-thinkpad-chiclet-1169530.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.vista404{
+    /* Vista used for 404 page */
+    padding: 22vh 0;
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-shadow: #333 1px 1px 3px;
+    /* Background image + parallax scroll */
+    background-image: url(/images/map.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
