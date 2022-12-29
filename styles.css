@@ -21,17 +21,17 @@ div.vista{
 
 /* Images sourced from images.pexels.com. */
 div.background-404{
-    background-image: url(/images/map.jpg);
+    background-image: url(/images/map_minified.jpg);
 }
 div.background-contact{
-    background-image: url(/images/keyboard.jpg);
+    background-image: url(/images/keyboard_minified.jpg);
 }
 div.background-hobbies{
-    background-image: url(/images/polyhedral_dice.jpeg);
+    background-image: url(/images/polyhedral_dice_2_minified.jpg);
 }
 div.background-home{
-    background-image: url(/images/cliffs.jpeg);
+    background-image: url(/images/cliffs_minified.jpeg);
 }
 div.background-resume{
-    background-image: url(/images/writing_implements.jpeg);
+    background-image: url(/images/writing_implements_minified.jpeg);
 }
