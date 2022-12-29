@@ -12,10 +12,26 @@ div.vista{
     align-items: center;
     color: white;
     text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll.  Sourced from images.pexels.com. */
-    /* background-image: url(/images/cliffs.jpeg); */
+    /* parallax scroll. */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Images sourced from images.pexels.com. */
+div.background-404{
+    background-image: url(/images/map.jpg);
+}
+div.background-contact{
+    background-image: url(/images/keyboard.jpg);
+}
+div.background-hobbies{
+    background-image: url(/images/polyhedral_dice.jpeg);
+}
+div.background-home{
+    background-image: url(/images/cliffs.jpeg);
+}
+div.background-resume{
+    background-image: url(/images/writing_implements.jpeg);
 }
