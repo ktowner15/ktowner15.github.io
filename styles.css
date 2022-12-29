@@ -6,70 +6,14 @@ div.card{
     margin: 10px 10px; 
     padding: 10px;
 }
-div.vista1{
+div.vista{
     padding: 22vh 0;
     text-align: center;
     align-items: center;
     color: white;
     text-shadow: #333 1px 1px 3px;
     /* Background image + parallax scroll.  Sourced from images.pexels.com. */
-    background-image: url(/images/cliffs.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-div.vista2{
-    /* Vista used for page 2 */
-    padding: 22vh 0;
-    text-align: center;
-    align-items: center;
-    color: white;
-    text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll  Sourced from images.pexels.com. */
-    background-image: url(/images/polyhedral_dice.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-div.vistaResume{
-    /* Vista used for resume */
-    padding: 22vh 0;
-    text-align: center;
-    align-items: center;
-    color: white;
-    text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll  Sourced from images.pexels.com. */
-    background-image: url(/images/writing_implements.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-div.vistaContact{
-    /* Vista used for contact page */
-    padding: 22vh 0;
-    text-align: center;
-    align-items: center;
-    color: white;
-    text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll  Sourced from images.pexels.com. */
-    background-image: url(/images/keyboard.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-div.vista404{
-    /* Vista used for 404 page */
-    padding: 22vh 0;
-    text-align: center;
-    align-items: center;
-    color: white;
-    text-shadow: #333 1px 1px 3px;
-    /* Background image + parallax scroll  Sourced from images.pexels.com. */
-    background-image: url(/images/map.jpg);
+    /* background-image: url(/images/cliffs.jpeg); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
